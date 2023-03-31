@@ -23,5 +23,8 @@ To solve this problem, we propose using the A* algorithm with an admissible heur
 
 To apply the A* algorithm, we first represent the terrain as a graph, where each tile is a node in the graph, and each edge represents a valid move from one tile to another. We can then assign weights to each edge based on the cost function used, and use the A* algorithm to find the path with the lowest total cost.
 
-To design an admissible heuristic, we propose using 2-D distance combined with the height difference between the current node and the goal node as an estimate of the remaining cost. This heuristic is admissible because it never overestimates the true cost of reaching the goal node for the cost function 1. For cost function 2, we propose using the formula:
+To design an admissible heuristic, we propose using 2-D distance combined with the height difference between the current node and the goal node as an estimate of the remaining cost. This heuristic is admissible because it never overestimates the true cost of reaching the goal node for the cost function 1. For cost function 2, we propose using the formula: h=0.4*distance(MAX(h_original), h_vertical)
+
+where $h_{\text{original}}$ is the height of the current node, $h_{\text{vertical}}$ is the height of the goal node, and $\text{MAX}(h_{\text{original}}, h_{\text{vertical}})$ is the maximum height between the two nodes. The `distance` function is the Euclidean distance between the two nodes. This heuristic is admissible because it never overestimates the true cost of reaching the goal node, and is consistent because it satisfies the triangle inequality. We can use this heuristic in combination with the A* algorithm to find the optimal path on the terrain.
+
 
