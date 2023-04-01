@@ -1,5 +1,5 @@
 # Skamania II GPS: Off-Trail Pathfinding
-*Author: Your Name Here*
+*Author: Erol Kaan Bostan
 
 ## Problem Statement
 
