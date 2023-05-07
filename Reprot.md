@@ -18,6 +18,12 @@ Using Dijkstras:
 
 
 Using A*:
+
+
+
+
+
+
 <img width="300" alt="Screenshot 2023-05-06 at 7 23 48 PM" src="https://user-images.githubusercontent.com/114015851/236654390-9e135e87-1c2e-42ae-b61e-6557f8b80501.png">
 
 
