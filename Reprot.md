@@ -7,7 +7,7 @@ This code repository contains implementations of different pathfinding algorithm
 
 
 Using Dijkstras:
-<img width="598" alt="Screenshot 2023-05-06 at 7 27 05 PM" src="https://user-images.githubusercontent.com/114015851/236654474-886865c4-9ca4-47fd-a7c3-c46285f64a0f.png">
+<img width="300" alt="Screenshot 2023-05-06 at 7 27 05 PM" src="https://user-images.githubusercontent.com/114015851/236654474-886865c4-9ca4-47fd-a7c3-c46285f64a0f.png">
 
 
 
