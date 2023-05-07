@@ -6,13 +6,13 @@ This code repository contains implementations of different pathfinding algorithm
 
 
 
-Using Dijkstras:
+Using Dijkstras:                                                               Using A*:
 
 
 
 
 
-<img width="300" alt="Screenshot 2023-05-06 at 7 27 05 PM" src="https://user-images.githubusercontent.com/114015851/236654474-886865c4-9ca4-47fd-a7c3-c46285f64a0f.png">
+<img width="300" alt="Screenshot 2023-05-06 at 7 27 05 PM" src="https://user-images.githubusercontent.com/114015851/236654474-886865c4-9ca4-47fd-a7c3-c46285f64a0f.png"> <img width="300" alt="Screenshot 2023-05-06 at 7 23 48 PM" src="https://user-images.githubusercontent.com/114015851/236654390-9e135e87-1c2e-42ae-b61e-6557f8b80501.png">
 
 
 
